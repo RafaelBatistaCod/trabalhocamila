@@ -49,31 +49,7 @@ Insere uma nova inscrição no banco de dados com validação prévia do evento.
 10. ### `gerarRelatorio($conexao, $nomeProcedure)`
 Executa um procedimento armazenado para gerar relatórios de participantes e certificados emitidos.
 
-##Como Usar
-Configuração Inicial
-Atualize as credenciais de conexão com o banco de dados no arquivo conexao.php.
+## Como Usar
 
-##Chamar as Funções
-Inclua o arquivo conexao.php no seu código principal.
-Utilize as funções conforme necessário.
+`php index.php`
 
-Exemplo:
-
-php
-
-include 'conexao.php';
-
-NumeroParticipantes($conexao);
-Criar Triggers ou Procedimentos
-Para criar triggers ou procedimentos armazenados, utilize as funções criarTrigger e criarProcedimento, informando os nomes desejados:
-
-php
-
-criarTrigger($conexao, 'AtualizaTotalParticipantes');
-criarProcedimento($conexao, 'RelatorioConsolidado');
-Geração de Relatórios
-Para gerar relatórios, chame a função gerarRelatorio com o nome do procedimento armazenado:
-
-php
-
-gerarRelatorio($conexao, 'RelatorioConsolidado');
