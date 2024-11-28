@@ -1,7 +1,8 @@
-##Visão Geral
+## Visão Geral
 Este script em PHP implementa funcionalidades para gerenciar eventos, inscrições, atividades, patrocinadores e geração de relatórios utilizando o banco de dados MySQL. Ele inclui métodos para manipular dados, criar triggers e procedimentos armazenados, além de exibir relatórios com informações úteis.
 
-##Dependências
+## Dependências
+
 PHP: Versão 7.4 ou superior
 MySQL
 Extensão MySQLi habilitada no servidor PHP
